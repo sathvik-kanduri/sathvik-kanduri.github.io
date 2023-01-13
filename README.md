@@ -1,1 +1,0 @@
-# sathvik-kanduri.github.io
