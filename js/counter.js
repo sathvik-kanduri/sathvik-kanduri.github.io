@@ -12,7 +12,8 @@ function updateCounter() {
     }
     else 
     {
-        count++;
+        count=parseInt(count)+1;
+    }
     localStorage.setItem('visiterCount', count);
     counter.innerHTML = `Vistor Count: ${localStorage.getItem('visiterCount')}`;
 }
